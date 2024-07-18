@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  margin: 0;
+}
+
+body > * {
+  padding: 0 200px;
+}
+
+.header,
+.hero,
+.footer {
+  background: #1f2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.header-links > li {
+  list-style-type: none;
+  margin: 0;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
