@@ -9,13 +9,21 @@ body > * {
   padding: 0 200px;
 }
 
+button {
+  background-color: #3882f6;
+  padding: 8px 16px;
+  color: white;
+  font-weight: bold;
+}
+
 .header,
 .hero,
 .footer {
   background: #1f2937;
 }
 
-.header {
+.header,
+.hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,4 +50,21 @@ a {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+  margin: 0;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.hero-image {
+  height: 400px;
 }
