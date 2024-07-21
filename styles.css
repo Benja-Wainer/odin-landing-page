@@ -23,15 +23,19 @@ button {
   background: #1f2937;
 }
 
-.hero {
-  padding: 48px 200px;
-  gap: 32px;
-}
-
 .header,
 .hero {
   display: flex;
   justify-content: space-between;
+}
+
+.header {
+  align-items: center;
+}
+
+.hero {
+  padding: 48px 200px;
+  gap: 32px;
   align-items: flex-start;
 }
 
@@ -73,4 +77,39 @@ a {
 
 .hero-image {
   height: 400px;
+}
+
+.information {
+  padding: 24px 250px;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 36px;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  justify-content: center;
+}
+
+.card-image {
+  width: auto;
+  border: solid, 3px, #3882f6;
+  border-radius: 8px;
+}
+
+.card > p {
+  text-align: center;
+  margin: 8px 0;
 }
