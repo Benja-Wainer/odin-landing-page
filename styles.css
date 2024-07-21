@@ -11,9 +11,10 @@ body > * {
 
 button {
   background-color: #3882f6;
-  padding: 8px 16px;
+  padding: 8px 32px;
   color: white;
   font-weight: bold;
+  border-radius: 8px;
 }
 
 .header,
@@ -22,11 +23,16 @@ button {
   background: #1f2937;
 }
 
+.hero {
+  padding: 48px 200px;
+  gap: 32px;
+}
+
 .header,
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .header-logo {
@@ -62,7 +68,7 @@ a {
 .hero-secondary {
   font-size: 18px;
   color: #e5e7eb;
-  margin: 0;
+  margin: 8px 0;
 }
 
 .hero-image {
