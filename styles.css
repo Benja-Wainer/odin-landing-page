@@ -6,15 +6,19 @@ body {
 }
 
 body > * {
-  padding: 0 200px;
+  padding: 0 300px;
 }
 
 button {
   background-color: #3882f6;
   padding: 8px 32px;
-  color: white;
+  color: #f9faf8;
   font-weight: bold;
   border-radius: 8px;
+}
+
+.sign-up {
+  border: 0;
 }
 
 .header,
@@ -34,7 +38,7 @@ button {
 }
 
 .hero {
-  padding: 48px 200px;
+  padding: 48px 300px;
   gap: 32px;
   align-items: flex-start;
 }
@@ -76,11 +80,11 @@ a {
 }
 
 .hero-image {
-  height: 400px;
+  height: 300px;
 }
 
 .information {
-  padding: 24px 250px;
+  padding: 24px 300px;
 }
 
 .info-text {
@@ -112,4 +116,64 @@ a {
 .card > p {
   text-align: center;
   margin: 8px 0;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 360px;
+  color: #1f2937;
+}
+
+.quote-text {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote-author {
+  margin: 0;
+  align-self: flex-end;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.call {
+  padding: 48px 300px;
+}
+
+.call-inner {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 96px;
+}
+
+.call-main {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+  margin: 0;
+}
+
+.call-secondary {
+  font-size: 16px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.call-signup {
+  border: 3px solid #f9faf8;
+}
+
+.footer {
+  height: 72px;
+  font-size: 18px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
